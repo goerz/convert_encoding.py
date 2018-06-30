@@ -193,7 +193,7 @@ def file_recursor(function=None, file_list=(), recurse=True,
     for name in file_list:
         name = os.path.expanduser(name)
         name = os.path.expandvars(name)
-        name = os.path.normcase(name)
+        name = os.path.normpath(name)
         if len(glob(name)) > 1:
             file_recursor(function, glob(name), recurse, followlinks)
             continue
