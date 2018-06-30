@@ -35,7 +35,7 @@ Store the `convert_encoding.py` script anywhere in your `$PATH`.
         -q, --quiet            don't display warnings or status messages
 
     For valid encoding names, see
-    http://docs.python.org/lib/standard-encodings.html
+    https://docs.python.org/2.4/lib/standard-encodings.html
 
     Accepted values for the eol code are: 'unix', 'linux', 'dos', 'win', 'mac'.
     If you do not specify an end-of-line, it will be set to your system's default,
